@@ -8,7 +8,7 @@ function Home() {
       <Header welcomeMessage="Bem vindo" />
       <div className="Home">
         <section className="container">
-          <button>Página de Associados</button>
+        <Link to="/associados" className="btn">Página de Associados</Link>
           <Link to="/eventos" className="btn">Página de Eventos</Link>
           <Link to="/jogos" className="btn">Página de Jogos</Link>
         </section>
